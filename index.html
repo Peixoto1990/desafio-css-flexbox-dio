@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desafio do curso de CSS3 'Trabalhando com Flexbox'. Curso da dio.me | Clone da página do Youtube">
+    <title>Desafio - CSS Flexbox DIO - Youtube Clone</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content content01">
+            <div title="Botão do Menu de Navegação" aria-label="button" class="btn-menu">
+                <div class="hamb-menu"></div>
+                <div class="hamb-menu"></div>
+                <div class="hamb-menu"></div>
+            </div>
+            <a href="https://www.youtube.com" class="header-logo">
+                <img src="assets/media/images/youtube-logo.png" alt="Logotipo do Youtube">
+            </a>
+        </div>
+        <div class="header-content content02">
+            <div class="header-search-bar">
+                <input type="text" name="search" id="search">
+                <button type="button"></button>
+            </div>
+        </div>
+        <div class="header-content content03">
+            <div class="header-user-buttons">
+                <button type="button"></button>
+                <button type="button"></button>
+                <button type="button"></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IIM9Rj9VJGU?si=G1fAssk2xkVw0k5L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2>Marte - O Planeta Vermelho</h2>
+            <section class="video-actions">
+                <div class="channel-infos">
+                    <img src="https://yt3.ggpht.com/ytc/AIdro_mV8fQY6Q38IjcVroBrpFWq7frnvm9VZXb7IG7UlWmssDM=s48-c-k-c0x00ffffff-no-rj" alt="Logotipo do canal">
+                    <p>Viagens pelo universo <br> <small>165 mil inscritos</small></p>
+                </div>
+                <button class="subscribe-button">
+                    inscreva-se
+                </button>
+                <div class="like"><button></button> <span>3,8 mil</span></div>
+                <div class="deslike"><button></button><span>Não gostei</span></div>
+                <div class="share"><button></button><span>Compartilhar</span></div>
+                <div class="download"><button></button><span>Download</span></div>
+            </section>
+            <h3>71 mil visualizações  há 6 anos</h3>
+            <section class="description">
+                <p>Marte, o planeta vermelho, foi nomeado pelos antigos romanos para o seu deus da guerra, porque sua cor avermelhada era uma lembrança de sangue.</p>
+                <p>O planeta tem 6.780 km de diâmetro, cerca de metade do tamanho da Terra.
+                    Há um enorme sistema de cânion chamado Valles Marineris que se estende por mais de 4 mil km, longo o suficiente para
+                    atravessar o Brasil.</p>
+                <p>Marte é o lar do maior vulcão do Sistema Solar, o Monte Olimpo, que tem mais 600 km  de tamanho e é três vezes mais alto que o Monte Everest.</p>
+                <p>Marte parece ter tido um passado com antigas redes de vales fluviais, deltas e lagos. Algumas rochas e minerais de sua superfície só poderiam ter se formado em água líquida. Hoje, água líquida é encontrada fluindo sazonalmente por algumas encostas e paredes de crateras. Há também água em forma de gelo nas regiões polares.</p>
+                <p>Um dia em Marte tem 24 h e 37 minutos, quase a mesma duração da Terra. Para dar a Volta no Sol Marte leva 687 dias.</p>
+            </section>
+        </section>
+        <aside>
+            <div class="video-card">
+                <div class="video-card-thumb"><img src="https://i.ytimg.com/vi/i0YzfunCz3A/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCD68miA9cdyKjlXDDC6ymQX89Ohw" alt="Imagem do planeta Saturno. Capa de vídeo relacionado."></div>
+                <div class="video-card-content">
+                    <h4>Planeta Saturno</h4>
+                    <h5>Viagens pelo Universo</h5>
+                    <h6>74 mil visualizações • há 5 anos <br> Transmitido há 3 dias</h6>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-card-thumb"><img src="https://i.ytimg.com/vi/5Zrm6ju3nvc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAIE0HBk_2F6pbgwSRRugqBDLMXEg" alt="Imagem do planeta-anão Plutão. Capa de vídeo relacionado"></div>
+                <div class="video-card-content">
+                    <h4>Planeta anão Plutão</h4>
+                    <h5>Viagens pelo Universo</h5>
+                    <h6>65 mil visualizações • há 4 anos <br> Transmitido há 20 dias</h6>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-card-thumb"><img src="https://i.ytimg.com/vi/i0YzfunCz3A/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCD68miA9cdyKjlXDDC6ymQX89Ohw" alt="Imagem do planeta Saturno. Capa de vídeo relacionado."></div>
+                <div class="video-card-content">
+                    <h4>Planeta Saturno</h4>
+                    <h5>Viagens pelo Universo</h5>
+                    <h6>74 mil visualizações • há 5 anos <br> Transmitido há 3 dias</h6>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-card-thumb"><img src="https://i.ytimg.com/vi/5Zrm6ju3nvc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAIE0HBk_2F6pbgwSRRugqBDLMXEg" alt="Imagem do planeta-anão Plutão. Capa de vídeo relacionado"></div>
+                <div class="video-card-content">
+                    <h4>Planeta anão Plutão</h4>
+                    <h5>Viagens pelo Universo</h5>
+                    <h6>65 mil visualizações • há 4 anos <br> Transmitido há 20 dias</h6>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-card-thumb"><img src="https://i.ytimg.com/vi/i0YzfunCz3A/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCD68miA9cdyKjlXDDC6ymQX89Ohw" alt="Imagem do planeta Saturno. Capa de vídeo relacionado."></div>
+                <div class="video-card-content">
+                    <h4>Planeta Saturno</h4>
+                    <h5>Viagens pelo Universo</h5>
+                    <h6>74 mil visualizações • há 5 anos <br> Transmitido há 3 dias</h6>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-card-thumb"><img src="https://i.ytimg.com/vi/5Zrm6ju3nvc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAIE0HBk_2F6pbgwSRRugqBDLMXEg" alt="Imagem do planeta-anão Plutão. Capa de vídeo relacionado"></div>
+                <div class="video-card-content">
+                    <h4>Planeta anão Plutão</h4>
+                    <h5>Viagens pelo Universo</h5>
+                    <h6>65 mil visualizações • há 4 anos <br> Transmitido há 20 dias</h6>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-card-thumb"><img src="https://i.ytimg.com/vi/i0YzfunCz3A/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCD68miA9cdyKjlXDDC6ymQX89Ohw" alt="Imagem do planeta Saturno. Capa de vídeo relacionado."></div>
+                <div class="video-card-content">
+                    <h4>Planeta Saturno</h4>
+                    <h5>Viagens pelo Universo</h5>
+                    <h6>74 mil visualizações • há 5 anos <br> Transmitido há 3 dias</h6>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-card-thumb"><img src="https://i.ytimg.com/vi/5Zrm6ju3nvc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAIE0HBk_2F6pbgwSRRugqBDLMXEg" alt="Imagem do planeta-anão Plutão. Capa de vídeo relacionado"></div>
+                <div class="video-card-content">
+                    <h4>Planeta anão Plutão</h4>
+                    <h5>Viagens pelo Universo</h5>
+                    <h6>65 mil visualizações • há 4 anos <br> Transmitido há 20 dias</h6>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-card-thumb"><img src="https://i.ytimg.com/vi/i0YzfunCz3A/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCD68miA9cdyKjlXDDC6ymQX89Ohw" alt="Imagem do planeta Saturno. Capa de vídeo relacionado."></div>
+                <div class="video-card-content">
+                    <h4>Planeta Saturno</h4>
+                    <h5>Viagens pelo Universo</h5>
+                    <h6>74 mil visualizações • há 5 anos <br> Transmitido há 3 dias</h6>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>Site criado por <a target="_blank" href="https://www.github.com/Peixoto1990"><strong>Aluilson Peixoto</strong></a> para cumprir o <strong>Desafio de CSS3 - Flexbox</strong> da <a target="_blank" href="https://www.dio.me"><strong>DIO</strong></a></p>
+    </footer>
+</body>
+</html>
