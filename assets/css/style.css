@@ -267,6 +267,7 @@ footer {
     .header-search-bar button {
         flex: 1 1 100%;
         padding: 1rem;
+        background-color: transparent;
     }
 
     main {
